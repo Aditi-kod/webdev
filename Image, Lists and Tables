@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<img src="painting.jpg" height="220" alt="Painting"> <br>
+<table>
+    <caption>Painting Tools</caption>
+    <thead>header</thead>
+    <tbody>
+    <tr> <th>pen</th>  <th>pencil</th>  <th>colour</th> </tr>
+    <tr> <td colspan = "2">link</td> <td rowspan="2">doms</td> </tr>
+    <tr> <td>cello</td> <td>cello</td> </tr>
+    </tbody>
+    <tfoot>footer </tfoot>
+</table>
+<ul type = "square">
+    <li>mango</li>
+    <li>banana</li>
+    <li type="circle">papaya</li>
+</ul>
+<ol type = "A">
+    <li type="a">mango</li>
+    <li>banana</li>
+    <li>papaya</li>
+</ol>
+</body>
+</html>
