@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Welcome</h1>
+<h2>Welcome</h2>
+<h3>Welcome</h3>
+<h4>Welcome</h4>
+<h5>Welcome</h5>
+<h6>Welcome</h6>
+<!-- <script src="index.js"></script>-->
+<a target="_blank" href="https://www.youtube.com/">🧸ྀི</a>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>
+    Cum delectus distinctio dolorum ea iure laudantium non praesentium qui quis repellendus rerum sed vero, voluptatibus.<br>
+    Accusamus aliquid asperiores debitis est nihil, quibusdam sunt voluptates!<br>
+    Ab adipisci at deleniti doloremque dolores earum esse expedita in, iste maiores necessitatibus omnis praesentium suscipit velit.<br>
+</p>
+</body>
+</html>
