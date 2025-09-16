@@ -1,0 +1,10 @@
+body {
+    background-color: #acc8ac;
+    color: #012b01;
+}
+table, th, td{
+    border: 1px solid black;
+}
+caption{
+    font-weight: bold;
+}
