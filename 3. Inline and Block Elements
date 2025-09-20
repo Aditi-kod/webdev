@@ -1,0 +1,12 @@
+h1{
+    background-color: greenyellow;
+}
+a {
+    background-color: bisque;
+}
+#div {
+    background-color: yellow;
+}
+#input {
+    background-color: red;
+}
