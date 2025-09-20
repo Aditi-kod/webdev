@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>I am heading and i am block element</h1>
+<a href="https://www.youtube.com/watch?v=vnnlUCLfn6I&list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w&index=8">i am link and i am inline element </a>
+<div id = "div">I am div I am  block element</div>
+<input id = "input" name="name" type="text" placeholder="I am inline element">
+<img src="painting.jpg" alt="painting" height="20">I am image and i am inline element
+<form action="Post">
+    <p>Name</p>
+    <input type="text" name="name" id = "name" placeholder="enter your name">
+    <p>Gender</p>
+    <input type= 'radio' name = 'gender' id = 'male' value = 'male' >
+    <label for="male">Male</label>
+    <input type= 'radio' name = 'gender' id = 'female' value = 'female'>
+    <label for="female">Female</label>
+    <p>Designation</p>
+    <select>
+        <option>Employee</option>
+        <option>Intern</option>
+        <option>Manager</option>
+    </select>
+    <p>Enter Your Comment Here</p>
+    <textarea name = "comment" rows = "4" cols = "30" id = "comment"></textarea>
+</form>
+
+
+
+</body>
+</html>
