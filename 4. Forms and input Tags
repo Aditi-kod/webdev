@@ -5,13 +5,33 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Forms</title>
+    <title>Document</title>
 </head>
 <body>
-<h1>Form for Webdev student registration</h1>
-<form action = "post">
-    <label for = "username">Name</label>
-    <input type="text" id = "username" name="username" placeholder="Enter Your Name">
+<h1>Forms</h1>
+<form action = "Post">
+    <label for="username">Username</label>
+    <input type="text" name="username" id ="username" placeholder="enter your name">
+    <input type = "radio" id = "male" name = "gender" value = "male" >
+    <label for="male">Male</label>
+    <input type = "radio" id = "female" name = "gender" value = "female">
+    <label for="female">Female</label>
+    <div>
+        <input type = "checkbox" id = "subscribe" name = "subscribe" value = "yes">
+        <label for="subscribe">Subscribe to News</label>
+    </div>
+    <div>
+        <label for="comment">Enter Your Comment Here</label>
+        <textarea name = "comment" rows = "4" cols = "30" id = "comment"></textarea>
+    </div>
+    <div>
+        <select name = "fruit" id = "fruit">
+            <option value="apple">Apple</option>
+            <option value="banana">Banana</option>
+            <option value="pear">Pear</option>
+        </select>
+    </div>
 </form>
+
 </body>
 </html>
