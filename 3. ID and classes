@@ -1,0 +1,9 @@
+.red{
+    color:red;
+}
+#firstdiv{
+background-color:blue;
+}
+#seconddiv{
+    background-color:red;
+}
