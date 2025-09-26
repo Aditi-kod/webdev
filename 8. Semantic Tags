@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <h1>semantic tags</h1>
+    <section>
+        <p>These are semantic tags</p>
+        <article>These tags were introduced after HTML5</article>
+        <aside>these tags are better convention to write things</aside>
+        <figure class="figure"></figure>
+        <time></time>
+    </section>
+</main>
+<footer>page 1</footer>
+
+</body>
+</html>
