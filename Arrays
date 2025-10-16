@@ -1,0 +1,14 @@
+let arr = [1,2,3,4,5,6]
+console.log(arr)
+console.log(arr.length)
+console.log(arr[2])
+console.log(arr.toString())
+console.log(arr.join(" and "))
+arr.pop()    // remove last element
+console.log(arr)
+arr.shift()    // remove first element
+console.log(arr)
+arr.push(6)    // add last element
+console.log(arr)
+arr.unshift(1)  // add first element
+console.log(arr)
