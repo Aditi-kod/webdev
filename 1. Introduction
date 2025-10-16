@@ -1,0 +1,8 @@
+console.log("hello")
+alert("Hello World!")
+let cnfrm = confirm("are you sure?")
+if(cnfrm) alert("great I will process your order")
+else alert("okay have a nice day")
+document.title = "Hello World!";
+document.write("Hello World!");
+document.body.style.background = "green";
