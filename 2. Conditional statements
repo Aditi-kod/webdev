@@ -1,0 +1,15 @@
+//                  ----------Conditional Statements------------
+// If - Else
+
+let age = 11;
+if (age <= 10) console.log("You are a kid")
+
+if (age <= 18) console.log("You cannot drive")
+else console.log("You can drive")
+
+if (age <= 0) console.log("You can't come to the party")
+else if(age<18)console.log("You cannot come to the party, wait some time")
+else console.log("You can come to the party")
+
+let c = age>=18? ("you can vote"): ("You cannot vote")
+console.log(c)
