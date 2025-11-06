@@ -1,0 +1,31 @@
+//                      ---------Functions----------
+
+function greet(name) {
+    console.log("hello " + name + " welcome to the party");
+}
+greet("Sweeny")
+greet("Rohan");
+greet("John");
+
+function sum(a,b){
+    console.log(a+b);
+}
+sum(1,2); // cant use console.log calling as it is already returning console.log
+
+function add(a, b){return a+b}
+console.log("the sum of 3 and 4 is "+ add(3,4));
+
+function table(number){
+    for(let i=1; i<=10;i++){
+        console.log(number +"*" +i +"="+number*i);
+    }
+}
+number = 5;
+console.log("the multiplication table of " + number + " is");
+table(number)
+
+// Arrow functions
+const product = (x,y) =>{
+    return x*y;
+}                                       // great when calling one function in another function
+console.log(product(3,4));
