@@ -1,0 +1,34 @@
+//                      ------------Loops------------
+// For Loops
+let a = 1
+for (let i = 0; i < 10; i++) {
+    console.log(a+i)
+}
+
+// For-in Loops
+
+let obj = {
+    Name : "John",
+    Class : "4",
+    Roll_No : "23"
+}
+console.log(obj)
+for(a in obj) console.log(a)    // for-in gives us keys of the objects
+for(a in obj) console.log(a,obj[a] )
+
+// For-of loops
+for(const c of "nanji") console.log(c)  // for-of loops is used to print the characters of
+                                    iterable data structure like arrays
+// While Loops
+
+ let i = 1;
+while (i < 4) {
+    console.log(i)
+    i++
+}                                // first condition checked then block runs
+
+// Do-While Loops
+do {
+    console.log(i)
+    i++
+} while (i < 0)             // first block runs then condition checked. Good for at least 1 time run
