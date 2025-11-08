@@ -1,0 +1,29 @@
+//                              ----------Strings------------
+let a = "John"
+let b = "Doe"
+console.log(a[0])
+console.log(a[1])
+console.log(a[2])
+console.log(a[3])
+
+console.log("My name is "+ a)
+// Template Literals
+console.log(`my name is ${a}`)
+console.log("Genelia D'souza")
+console.log('Genelia D" souza')  // write like this for apostrophe words
+console.log('roh\'an')         // or use Escape sequence character
+console.log('roh\'an'.length)   // \ does not count as character
+console.log("roh\"an")
+console.log('roh\nan') // new line
+console.log('roh\tan') // tab
+console.log('roh\ran') // carriage return
+// String Properties
+console.log(a.length)
+console.log(a.toUpperCase())
+console.log(a.toLowerCase())
+console.log(a.slice(1))
+console.log(a.slice(1,3))
+console.log(a.replace("oh","aa"))
+console.log(a.concat("marry"))
+console.log(a.concat("marry",b))
+console.log(a)    // strings are immutable. Did not change after all these things we did
