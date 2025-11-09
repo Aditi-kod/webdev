@@ -7,8 +7,7 @@ console.log(a[2])
 console.log(a[3])
 
 console.log("My name is "+ a)
-// Template Literals
-console.log(`my name is ${a}`)
+console.log(`my name is ${a}`)  // Template Literals
 console.log("Genelia D'souza")
 console.log('Genelia D" souza')  // write like this for apostrophe words
 console.log('roh\'an')         // or use Escape sequence character
