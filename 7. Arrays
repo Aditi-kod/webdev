@@ -1,0 +1,15 @@
+//                      -----------Arrays-------------
+let arr = [1,6,7,4,'arvind']
+console.log(arr)
+console.log(arr.length)
+console.log(typeof arr)     // type of arrays in js is object
+console.log(arr[1])
+arr[1] = 9              // arrays are mutable
+console.log(arr)
+//  Array methods
+console.log(arr.toString())
+console.log(arr.join(" "))
+console.log(arr.pop())
+console.log(arr)
+console.log(arr.push(98))
+console.log(arr)
