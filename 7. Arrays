@@ -13,3 +13,70 @@ console.log(arr.pop())
 console.log(arr)
 console.log(arr.push(98))
 console.log(arr)
+console.log(arr.shift())
+console.log(arr)
+console.log(arr.unshift(5))
+console.log(arr)
+delete arr[3]
+console.log(arr)
+console.log(arr[3])
+arr2 = ['daisy', 'pretty', 'human']
+console.log(arr.concat(arr2))
+console.log(arr)
+arr.sort()
+console.log(arr)
+arr.splice(1, 2, 6,8)
+console.log(arr)
+console.log(arr.slice(1,4))
+console.log(arr)
+arr.reverse()
+console.log(arr)
+
+//Looping through Arrays
+
+for (let i = 0; i <= arr.length; i++) {
+    console.log(arr[i])
+}
+
+arr.forEach((value, index, array) => {
+    console.log(value,index, array)
+})
+
+for(let a of arr){
+    console.log(a)
+}
+
+let obj ={
+    a: 56,
+    b: 72,
+    c: 73,
+}
+for(let i in obj){
+    console.log(i)
+    console.log(obj[i])
+}
+let newarr = []
+for (let i = 0; i < arr.length; i++) {
+    newarr.push(arr[i])
+}
+console.log(newarr)
+
+ newarr = arr.map((e)=> {
+     return e**3;
+ })
+console.log(newarr)
+console.log(arr.map((e)=> {
+    return e**3;
+}))
+
+let isgreaterthan1 = arr.filter((e)=> {
+    return e>4?true:false;
+})
+console.log(isgreaterthan1)
+
+let arr2 = [1, 2, 3, 4, 5]
+console.log(arr2.reduce((a,b)=> {
+    return a+b;
+}))
+
+console.log(Array.from("mannu"))
